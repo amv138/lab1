@@ -15,6 +15,7 @@
 		154E9E272202575C00712CC7 /* lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E9E262202575C00712CC7 /* lab1UITests.swift */; };
 		154E9E35220257A500712CC7 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E9E34220257A500712CC7 /* PhotoViewController.swift */; };
 		154E9E3722025D1700712CC7 /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E9E3622025D1700712CC7 /* PostCellTableViewCell.swift */; };
+		158585D6220B926300D98F1E /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158585D5220B926300D98F1E /* PhotoDetailsViewController.swift */; };
 		49A657B5851B3CE09E8E4629 /* Pods_lab1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DD4B4C2545314819C63EA1 /* Pods_lab1UITests.framework */; };
 		6DBDC3F16FFD695D3C7E5597 /* Pods_lab1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B962D54DEDFA4B69AC2F81 /* Pods_lab1.framework */; };
 		A9F9E67462BCDFEF858A1439 /* Pods_lab1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91E7372CE7C9E21505C6E2 /* Pods_lab1Tests.framework */; };
@@ -54,6 +55,7 @@
 		154E9E282202575C00712CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154E9E34220257A500712CC7 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		154E9E3622025D1700712CC7 /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
+		158585D5220B926300D98F1E /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		4350AC157BC1C87E18E7E6CD /* Pods-lab1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lab1/Pods-lab1.debug.xcconfig"; sourceTree = "<group>"; };
 		7211E2729E633ADFD17AC1CC /* Pods-lab1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lab1UITests/Pods-lab1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABBBC70E0013F1402E6E2884 /* Pods-lab1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lab1Tests/Pods-lab1Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				154E9E062202575B00712CC7 /* AppDelegate.swift */,
 				154E9E34220257A500712CC7 /* PhotoViewController.swift */,
 				154E9E0A2202575B00712CC7 /* Main.storyboard */,
+				158585D5220B926300D98F1E /* PhotoDetailsViewController.swift */,
 				154E9E0D2202575C00712CC7 /* Assets.xcassets */,
 				154E9E0F2202575C00712CC7 /* LaunchScreen.storyboard */,
 				154E9E122202575C00712CC7 /* Info.plist */,
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158585D6220B926300D98F1E /* PhotoDetailsViewController.swift in Sources */,
 				154E9E3722025D1700712CC7 /* PostCellTableViewCell.swift in Sources */,
 				154E9E072202575B00712CC7 /* AppDelegate.swift in Sources */,
 				154E9E35220257A500712CC7 /* PhotoViewController.swift in Sources */,
