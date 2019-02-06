@@ -35,15 +35,19 @@ class PhotoViewController: UIViewController, UITableViewDataSource, UITableViewD
                 // Store the returned array of dictionaries in our posts property
                 self.posts = responseDictionary["posts"] as! [[String: Any]]
                 
-                self.tableView.reloadData()
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
                 
                 // TODO: Get the posts and store in posts property
                 
                 // TODO: Reload the table view
             }
         }
-        task.resume()
         self.tableView.reloadData()
+        task.resume()
+        
      
         
 
@@ -65,12 +69,15 @@ class PhotoViewController: UIViewController, UITableViewDataSource, UITableViewD
             let urlString = originalSize["url"] as! String
             // 4.
             let url = URL(string: urlString)
-            cell.imageView?.af_setImage(withURL: url!)
+            DispatchQueue.main.async {
+                cell.imageView?.af_setImage(withURL: url!)
+
+            }
+
         }
         
         
         // Configure YourCustomCell using the outlets that you've defined.
-       
         return cell
     }
 
@@ -86,6 +93,9 @@ class PhotoViewController: UIViewController, UITableViewDataSource, UITableViewD
         let indexPath = tableView.indexPath(for: cell)!
         vc.image = cell.imageView?.image
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        
+
         
         
     }

@@ -16,6 +16,7 @@ class PhotoDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
             photoDetailVIew.image = image
+     
         // Do any additional setup after loading the view.
     }
     
